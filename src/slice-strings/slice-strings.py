@@ -9,7 +9,12 @@ if __name__ == '__main__':
     print(s[:])
     print(s[::])
 
+    # char at position
+    print("\nChar at position:")
+    print(s[3])
+
     # using indexing sequence
+    print("\nUsing indexing sequence:")
     print(s[:3])
     print(s[1:5:2])
     print(s[-1:-12:-2])
